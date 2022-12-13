@@ -29,7 +29,7 @@ def main():      # This function handles most of the work of other functions. It
                 
             elif userChoice == "7": # To Exit
                 print("The Application Closed Successfully.")
-                break
+                quit()
             
             else:
                 print("You entered an invalid option.")   # This case when the user inputs a choice that is not included in the menu.
