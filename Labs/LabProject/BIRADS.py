@@ -1,4 +1,4 @@
-from openpyxl import load_workbook # we only used one function.
+from openpyxl import load_workbook 
 
 wb = load_workbook('sample.xlsx') # to open the workbook that we are going to use.
 ws = wb.active # to make the worksheet active.
